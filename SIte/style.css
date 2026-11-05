@@ -1,0 +1,116 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f8;
+    color: #222;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #102b50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+/* MENU SUPERIOR */
+
+nav {
+    background-color: #174b7a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #2878b5;
+}
+
+/* CONTEÚDO */
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+h2 {
+    color: #174b7a;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* IMAGENS */
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #102b50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    main {
+        padding: 12px;
+    }
+}
